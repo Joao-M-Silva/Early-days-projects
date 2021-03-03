@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on João Silva Site</title>
+    <link>https://joao-m-silva.github.io/Portfolio/post/</link>
+    <description>Recent content in Projects on João Silva Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://joao-m-silva.github.io/Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 2: Data Science Field Analysis</title>
+      <link>https://joao-m-silva.github.io/Portfolio/post/project-2/</link>
+      <pubDate>Mon, 01 Mar 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://joao-m-silva.github.io/Portfolio/post/project-2/</guid>
+      <description>Objective: As an individual I am really interested about Data Science. As a result of that interest I decided to do a study about the jobs related to the field of Data Science in the United States of America. My goal is to predict salaries of positions based on features related to the job using several machine learning regression models.
+  Data: In order to get the data required for this analysis I did some Web Scraping on the Glassdoor website using the Python library Beautiful Soup.</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Titanic - Machine Learning from Disaster</title>
+      <link>https://joao-m-silva.github.io/Portfolio/post/project-1/</link>
+      <pubDate>Wed, 03 Feb 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://joao-m-silva.github.io/Portfolio/post/project-1/</guid>
+      <description>Objective: use machine learning algorithms to create a model that predicts which passengers survived the Titanic shipwreck. In this project I used Logistic Regression, K-Nearest Neighbors and Decision Trees as the most basic models. Then I used some ensemble techniques such as Voting Classifiers, Random Forest, AdaBoosting and Gradient Boosting.
+  The Challenge: The sinking of the Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg.</description>
+    </item>
+    
+  </channel>
+</rss>
