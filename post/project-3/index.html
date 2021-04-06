@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Project 3: Opening a Sushi Restaurant in the city of Oporto | João Silva Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Project to decide where to open a sushi restaurant in the city of Oporto. This project is the Final Project of the IBM Data Science Professional Certificate.">
+    <meta name="generator" content="Hugo 0.81.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+
+  
+  
+    <link rel="stylesheet" href="https://joao-m-silva.github.io/Portfolio/ananke/dist/main.css_5c99d70a7725bacd4c701e995b969fea.css" >
+  
+
+
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Project 3: Opening a Sushi Restaurant in the city of Oporto" />
+<meta property="og:description" content="Project to decide where to open a sushi restaurant in the city of Oporto. This project is the Final Project of the IBM Data Science Professional Certificate." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://joao-m-silva.github.io/Portfolio/post/project-3/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-06T11:00:59-04:00" />
+<meta property="article:modified_time" content="2021-04-06T11:00:59-04:00" /><meta property="og:site_name" content="João Silva Site" />
+
+<meta itemprop="name" content="Project 3: Opening a Sushi Restaurant in the city of Oporto">
+<meta itemprop="description" content="Project to decide where to open a sushi restaurant in the city of Oporto. This project is the Final Project of the IBM Data Science Professional Certificate."><meta itemprop="datePublished" content="2021-04-06T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2021-04-06T11:00:59-04:00" />
+<meta itemprop="wordCount" content="1803">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Project 3: Opening a Sushi Restaurant in the city of Oporto"/>
+<meta name="twitter:description" content="Project to decide where to open a sushi restaurant in the city of Oporto. This project is the Final Project of the IBM Data Science Professional Certificate."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://joao-m-silva.github.io/Portfolio/images/sushi.png');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://joao-m-silva.github.io/Portfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        João Silva Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+<h4></h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white no-underline white-90" href="https://joao-m-silva.github.io/Portfolio/pt/post/project-3/">pt</a>
+    </li>
+    
+</ul>
+
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://joao-m-silva.github.io/Portfolio/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://joao-m-silva.github.io/Portfolio/contact/" title="Contacts page">
+              Contacts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://joao-m-silva.github.io/Portfolio/post/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 3: Opening a Sushi Restaurant in the city of Oporto</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Project to decide where to open a sushi restaurant in the city of Oporto. This project is the Final Project of the IBM Data Science Professional Certificate.
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://joao-m-silva.github.io/Portfolio/post/project-3/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://joao-m-silva.github.io/Portfolio/post/project-3/&amp;text=Project%203:%20Opening%20a%20Sushi%20Restaurant%20in%20the%20city%20of%20Oporto" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://joao-m-silva.github.io/Portfolio/post/project-3/&amp;title=Project%203:%20Opening%20a%20Sushi%20Restaurant%20in%20the%20city%20of%20Oporto" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Project 3: Opening a Sushi Restaurant in the city of Oporto</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-04-06T11:00:59-04:00">April 6, 2021</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><a href="https://github.com/Joao-M-Silva/Portfolio/tree/main/Project%202_Data_Science_Fied_Analysis">Link to GitHub Repository</a></p>
+<p><strong>1. Introduction</strong></p>
+<p>The hypothetical business problem of this project is making a reasoned decision about where to open a sushi restaurant in the city of Oporto in Portugal. The city of Oporto is very trendy at the moment and is a touristic boom. On top of that there is a youthful culture regarding new experiences inherent to the city, which can lead to a great curiosity and openness towards experience non-portuguese food. The intent of this project is finding an optimal location area for the restaurant, taking into account accessibility, concurrence and distance from hotels, schools and universities. To better understand the characteristics of the possible restaurant location I&rsquo;m going to subdivide the city of Oporto into its official districts and then perform unsupervised machine learning to create clusters of districts based on the features described above. The description of the different Oporto&rsquo;s areas can be helpful to guide the line of thought of potential investors in this particular city.</p>
+<p><strong>2. Data Acquisition</strong></p>
+<p>The data needed for this project is:</p>
+<ol>
+<li>List of districts of Oporto</li>
+<li>Coordinates (Latitude and Longitude) of the districts</li>
+<li>List of several kinds of venues for each district</li>
+<li>Most popular venues for each district</li>
+</ol>
+<p>The list of districts of Oporto was obtained exploring the city council website. The coordinates of each district were obtained with the help of Google Maps. Finally, the list of different kinds of venues and the most popular venues for each district was obtained through a Foursquare API.</p>
+<p><strong>3. Methodology</strong></p>
+<p>3.1 Oporto Districts</p>
+<p>Based on the Oporto’s city council, the city has seven districts:</p>
+<ol>
+<li>Union of districts of Aldoar/Foz do Douro/Nevogilde</li>
+<li>Union of districts of Cedofeita/Santo Ildefonso/Sé/Miragaia/São Nicolau /Vitória</li>
+<li>Union of districts of Lordelo do Ouro/Massarelos</li>
+<li>Bonfim</li>
+<li>Campanhâ</li>
+<li>Paranhos</li>
+<li>Ramalde</li>
+</ol>
+<p>Note: For now on I refer to the second district as city center.
+The figure below is a representation of the districts named above,</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/portofreguesias.jpg"/> <figcaption>
+            <h4>Figure 1: Oporto district&#39;s</h4>
+        </figcaption>
+</figure>
+
+<p>In order to represent each circle, I created circles of radius proportional to the size of each district in terms of area. The coordinates of each district were obtained using Google Maps. The resultant dataframe is shown in the figure 2, followed by a visualization of the districts of Oporto, figure 3.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/dataframe.JPG"/> <figcaption>
+            <h4>Figure 2: Dataframe of the districts</h4>
+        </figcaption>
+</figure>
+
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/districtsvisualization.JPG"/> <figcaption>
+            <h4>Figure 3: Visualization of the districts</h4>
+        </figcaption>
+</figure>
+
+<p>3.2 Exploring the districts</p>
+<p>In order to decide about the optimal district to open a sushi restaurant I explored different types of venues that I found relevant for each district, namely,</p>
+<ol>
+<li>Sushi Restaurants</li>
+<li>Hotels</li>
+<li>Schools and Universities</li>
+<li>Means of Transport</li>
+<li>Popular Venues</li>
+</ol>
+<p>The number of sushi restaurants in each district is relevant to analyze he concurrence. The number of hotels is useful has a measure of how touristic a district is. Furthermore, people who are hosted in a hotel are likely to look for lunch or dinner in a restaurant outside the hotel. Schools and Universities are a good indicator for potential clients, since younger people is generally more open to experience new types of cuisine and to follow trends and, sushi is certainly a food trend right now. On top of that, schools and universities can lead to group lunches, and sushi is a great option for this particular case.  The accessibility of the sushi restaurant location is also very important, that’s why I decided to explore the means of transport of each district. Finally, the popular venues are a good indicator to measure the most popular venues, which can be a crucial indicator to decide where to open the restaurant. In addition, more than just search for the popular venues, I also search for popular sushi related venues for each district.</p>
+<p>For each venue type I calculated the density per district. The density per district is simply the total number of a certain venue in a certain district divided by the radius of the district, which is an indicator of its size. This parameter is important to normalize the venues analysis since the districts have different areas.</p>
+<p>3.3 Clustering the districts</p>
+<p>After the districts exploration I performed unsupervised machine learning using a K-Means Algorithm, in order to create groups of districts. The features used to cluster the districts were the density of sushi restaurants, density of hotels, density of Schools and Universities and Density of Transports. To estimate the best number of clusters I used the elbow method. Applying this method, one chooses the value of k (number of clusters) associated with a great decrease in slope for the distortion score. In other words, for values of k higher than the one selected with the elbow method, the decrease in the clustering error for higher values of k is small.</p>
+<p><strong>4. Results</strong></p>
+<p>4.1 District&rsquo;s venues exploration</p>
+<p>In this section I’m going to present the results regarding the venues of each district.</p>
+<p>4.1.1 Sushi restaurants</p>
+<p>The district with higher number and density of sushi restaurants is the city center. The district of Bonfim has an extremely low density for this venue. The city of Oporto has a total of 54 sushi restaurants.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/sushirestaurants.JPG"/> <figcaption>
+            <h4>Figure 4: Sushi Restaurants for each district</h4>
+        </figcaption>
+</figure>
+
+<p>4.1.2 Hotels</p>
+<p>There is a total of 141 hotels in the city. The majority of them are located in the city center, as expected. Following the city center, the two districts with higher hotel density, with a huge gap comparing to the remaining districts, are Bonfim and Lordelo/Massarelos.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/hotels.JPG"/> <figcaption>
+            <h4>Figure 5: Hotels for each district</h4>
+        </figcaption>
+</figure>
+
+<p>4.1.3 Schools &amp; Universities</p>
+<p>There are 214 schools or universities in the city of Oporto. Once again the city center has the higher density of schools and universities, followed by Paranhos, which is a district with a lot of academic facilities, and Lordelo/Massarelos.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/schools.PNG"/> <figcaption>
+            <h4>Figure 6: Schools and Universities for each district</h4>
+        </figcaption>
+</figure>
+
+<p>4.1.4 Means of Transportation</p>
+<p>As expected, there is a very significant gap between the density of means of transport comparing the city center and the other districts. The transports density in Aldoar/Foz/Nevogilde is extremely low in comparison to the other districts.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/transport.PNG"/> <figcaption>
+            <h4>Figure 7: Means of Transport for each district</h4>
+        </figcaption>
+</figure>
+
+<p>4.2 Popular Venues for each district</p>
+<p>In this section I present the top 5 most popular venues for each district, as well as the number of sushi venues that are popular at the moment. This exploration is important to see if the trendy venues of each district are somehow favorable or a good indicator for the project purpose.</p>
+<p>4.2.1 Bonfim</p>
+<p>There is a clear trend for restaurants in the district of Bonfim. This can be a good indicator that this district is a good candidate for the sushi restaurant. However, the only sushi restaurant of this district is not trendy.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/bonfim.PNG"/> <figcaption>
+            <h4>Figure 8:Top 5 Most Popular Venues in Bonfim</h4>
+        </figcaption>
+</figure>
+
+<p>4.2.2 City center</p>
+<p>There is a clear trend for tourism related venues in the city center, like Hostels, Plazas and Restaurants. Although, only 3 out of the 24 sushi restaurants in this district are trendy at the moment.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/citycenter.PNG"/> <figcaption>
+            <h4>Figure 9: Top 5 mOst Popular Venues in the city center</h4>
+        </figcaption>
+</figure>
+
+<p>4.2.3 Lordelo/Massarelos</p>
+<p>There is a clear trend for hotels and restaurants in the district of Lordelo/Massarelos. However, only 1 out of 7 sushi restaurants in this district are popular.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/lordelo.PNG"/> <figcaption>
+            <h4>Figure 10: Top 5 Most Poupular Venues in Lordelo/Massarelos</h4>
+        </figcaption>
+</figure>
+
+<p>4.2.4 Campanhã</p>
+<p>There is no particularly trendy category in this district. The most popular ones only have two instances. Furthermore, this district has no sushi restaurant yet.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/campanha.PNG"/> <figcaption>
+            <h4>Figure 11: Top 5 Most Popular Venues in Campanhã</h4>
+        </figcaption>
+</figure>
+
+<p>4.2.5 Aldoar/Foz/Nevogilde</p>
+<p>The most trendy places in this district are generally food related. Surprisingly, 8 out of 9 sushi restaurants in this district are trendy at the moment. This indicator alone can be significant to choose this district as the location of the restaurant.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/aldoar.PNG"/> <figcaption>
+            <h4>Figure 12: Top 5 Most Popular Venues in Aldoar/Foz/Nevogilde</h4>
+        </figcaption>
+</figure>
+
+<p>4.2.6 Ramalde</p>
+<p>The majority of the trendy places in this district are food related. However, only one out of the 8 sushi restaurants is trendy.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/ramalde.PNG"/> <figcaption>
+            <h4>Figure 13: Top 5 Most Popular Venues in Ramalde</h4>
+        </figcaption>
+</figure>
+
+<p>4.2.7 Paranhos</p>
+<p>Once again, the majority of the trendy places are food related but only a small percentage of the sushi restaurants are trendy, in this district only 1 out of 5.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/paranhos.PNG"/> <figcaption>
+            <h4>Figure 14: Top 5 Most Popular Venues in Paranhos</h4>
+        </figcaption>
+</figure>
+
+<p>4.3 Clustering the districts</p>
+<p>Based on the elbow method shown in figure 15 I decided to use 3 seeds for clustering (k = 3). Each cluster has a different color and for visualization purposes each district is represented by 4 circles, whose radius represent the density of the venues analyzed.</p>
+<p><figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/elbow.PNG"/> <figcaption>
+            <h4>Figure 15: Elbow Method Representation</h4>
+        </figcaption>
+</figure>
+
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/clusters.PNG"/> <figcaption>
+            <h4>Figure 16: Clusters Visualization</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Clearly, the blue districts are the ones with a small number of venues considered critical for this analysis. There is a significant difference between the number of venues of the green (city center) and red districts.</p>
+<p><strong>5. Discussion</strong></p>
+<p>Based on the results I would recommend the districts of Bonfim or Aldoar/Foz/Nevogilde for the location of the sushi restaurant.</p>
+<p>Although the district of Bonfim (Red) has not so many critical venues comparing to the green district, it has only one Sushi Restaurant (comparing to the green district). In addition, the top 3 most popular venues of Bonfim are restaurants and café’s, which represent a tendency to food related establishments to perform well in this district. The other red districts are Lordelo/Massarelos and Paranhos, but, comparing to Bonfim, the densities of sushi restaurants are 6 and 3.4 times higher respectively, which represent a much higher concurrence in this districts comparing to the district of Bonfim.</p>
+<p>The fact that 8/9 of the sushi restaurants are trendy in the district of Aldor/Foz/Nevogilde is a sufficient indicator, in my opinion, to consider this district as a good choice for the investment. A possible explanation why sushi is really trendy in this district is that people who live in there are known for being above average in terms of wealthiness, which can lead to a higher affluence of sushi restaurants, which are typically expensive if the sushi is of good quality. Bellow there’s a visualization of the sushi venues in this district area (represented by a yellow circle) and the sushi venues with a radius of 300 meters (blue circles). There is clearly a lot of space to create a new sushi venue. Once can clearly see that, even extremely close sushi restaurants have the ability to be trendy in this district.</p>
+<figure>
+    <img src="https://joao-m-silva.github.io/Portfolio/images/foz.PNG"/> <figcaption>
+            <h4>Figure 17: Sushi Venues in the district of Aldoar/Foz/Nevogilde</h4>
+        </figcaption>
+</figure>
+
+<p><strong>6. Conclusion</strong></p>
+<p>The results obtained are a strong indicator of where to invest in a sushi restaurant in the city of Oporto. Furthermore, I based my final decision in two different criteria: The number of crucial venues for each district and how trendy sushi restaurants are in a specific district.</p>
+<p>There are several important criteria to have in consideration in order to make a final decision that were not explored in this project, for instance, the rent per meter square in each district.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://joao-m-silva.github.io/Portfolio/" >
+    &copy;  João Silva Site 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
