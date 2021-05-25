@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://joao-m-silva.github.io/Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Project 4: Building a Neural Network from Scratch</title>
+      <link>https://joao-m-silva.github.io/Portfolio/post/project-4/</link>
+      <pubDate>Tue, 25 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://joao-m-silva.github.io/Portfolio/post/project-4/</guid>
+      <description>Motivation: In order to grasp and deeply understand several concepts of Deep Learning I decided to implement a Neural Network from scratch using only the library NumPy. This work will help me to internally visualize what&amp;rsquo;s happening &amp;ldquo;behind doors&amp;rdquo; when using Deep Learning oriented libraries like TensorFlow and PyTorch.
+  The Challenge: The main challenge of this project is being able to explicitly program all the intrinsic steps inherent to the creation of a Neural Network that is able to fit the training dataset properly, as well as predicting new data points.</description>
+    </item>
+    
+    <item>
       <title>Project 3: Opening a Sushi Restaurant in the city of Oporto</title>
       <link>https://joao-m-silva.github.io/Portfolio/post/project-3/</link>
       <pubDate>Tue, 06 Apr 2021 11:00:59 -0400</pubDate>
